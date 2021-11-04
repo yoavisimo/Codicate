@@ -1,0 +1,21 @@
+$ContainerWide:1280;
+$NumberOfCols: 12;
+
+header{
+    background-image: url(/assets/images/Header_BG.png);
+    background-size: cover;
+    height: (484 + 115) + 'px'; 
+}
+
+section{
+    @for $i from 1 through $NumberOfCols{
+        .col-#{$i}{
+            width: $ContainerWide / ($NumberOfCols / $i) + 'px';
+        }
+    }
+    
+    .container{
+        width: $ContainerWide + 'px';
+    }
+}
+

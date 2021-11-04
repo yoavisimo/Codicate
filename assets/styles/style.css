@@ -1,0 +1,58 @@
+header {
+  background-image: url(/assets/images/Header_BG.png);
+  background-size: cover;
+  height: "599px";
+}
+
+section .col-1 {
+  width: "106.66667px";
+}
+
+section .col-2 {
+  width: "213.33333px";
+}
+
+section .col-3 {
+  width: "320px";
+}
+
+section .col-4 {
+  width: "426.66667px";
+}
+
+section .col-5 {
+  width: "533.33333px";
+}
+
+section .col-6 {
+  width: "640px";
+}
+
+section .col-7 {
+  width: "746.66667px";
+}
+
+section .col-8 {
+  width: "853.33333px";
+}
+
+section .col-9 {
+  width: "960px";
+}
+
+section .col-10 {
+  width: "1066.66667px";
+}
+
+section .col-11 {
+  width: "1173.33333px";
+}
+
+section .col-12 {
+  width: "1280px";
+}
+
+section .container {
+  width: "1280px";
+}
+/*# sourceMappingURL=style.css.map */
