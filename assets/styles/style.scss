@@ -34,7 +34,13 @@ p{
     display: inline-block;
 }
 
-
+@media (max-width: 1460px){
+    .container{
+        @include setSize( 96% );
+        display: inline-block;
+        padding: 2%;
+    }
+}
 
 header{
     width: 100%;
@@ -431,7 +437,7 @@ footer.sec-5{
     .container-1460{
         @include setSize( $Container1460 + px);
         display: flex;
-       
+        padding: 0 2%;
         justify-content: space-between;
     }
 
