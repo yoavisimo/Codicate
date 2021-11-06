@@ -5,147 +5,235 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <title>Document</title>
+    <title>Candicate</title>
 </head>
 <body>
-    <header>
+    <header id="section0">
         <nav>
-            <div class="upper-nav-bar full-screen">
-                <div class="logo-container">
-                    <img src="assets/images/logo.png" alt="Codicate">
+            <div class="upper-nav-bar full-screen" id="upper-nav-bar">
+                <div class="logo-container col-2">
+                    <img class="logo" src="assets/images/logo.png" alt="Codicate">
                 </div>
-                
-                <ul class="main-menu">
+
+                <ul class="main-menu" id="main-menu">
                     <li class="main-menu-single-item">eu</li>
                     <li class="main-menu-single-item">quis</li>
                     <li class="main-menu-single-item">cupiditat non</li>
                     <li class="main-menu-single-item">eum</li>
                     <li class="main-menu-single-item">iusto</li>
                     <li class="main-menu-single-item">odio</li>
-                    <li class="main-menu-single-item">duis dolore te</li>
+                    <li class="main-menu-single-item active">DIUS DOLORE TE</li>
                 </ul>
+                
+                <div id="nav-icon1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <div class="sticky-nav-bar full-screen">
+            <div class="sticky-nav-bar full-screen" id="sticky-nav-bar">
                 <ul class="inner-page-menu">
-                    <li class="inner-page-menu-single-item">vulputate velit</li>
-                    <li class="inner-page-menu-single-item">esse molestie</li>
-                    <li class="inner-page-menu-single-item">consequat, vel illum dolore eu</li>
-                    <li class="inner-page-menu-single-item">feugiat nulla facilisis at</li>
+                    <li class="inner-page-menu-single-item"><a href="#section2">vulputate velit</a></li>
+                    <li class="inner-page-menu-single-item"><a href="#section3">esse molestie</a></li>
+                    <li class="inner-page-menu-single-item"><a href="#section4">consequat, vel illum dolore eu</a></li>
+                    <li class="inner-page-menu-single-item"><a href="#section5">feugiat nulla facilisis at</a></li>
                 </ul>
             </div>
+
+           
+
         </nav>
 
-        <section class="sec-1 container">
-            <h1>Lorem ipsum dolor sit</h1>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisici elit</h2>
-            <ul class="cards">
-                <li class="single-card-with-icon">
-                    <div class="single-icon"></div>
-                    <title></title>
-                    <p></p>
-                </li>
-                <li class="single-card-with-icon">
-                    <div class="single-icon"></div>
-                    <title></title>
-                    <p></p>
-                </li>
-                <li class="single-card-with-icon">
-                    <div class="single-icon"></div>
-                    <title></title>
-                    <p></p>
-                </li>
-            </ul>
+        <section class="sec-1">
+            <div class="container">
+                <h1>Lorem ipsum dolor sit</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisici elit</h2>
+                <ul class="cards">
+                    <li class="single-card-with-icon col-4">
+                        <div class="single-icon"><img src="assets/images/HappyEmployees.svg" height="50"/></div>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <p>amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore </p>
+                    </li>
+                    <li class="single-card-with-icon col-4">
+                        <div class="single-icon"><img src="assets/images/Say yes to BYOD.svg" height="50"/></div>
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt</p>
+                    </li>
+                    <li class="single-card-with-icon col-4">
+                        <div class="single-icon"><img src="assets/images/Save on it Spend.svg" height="50"/></div>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>consectetur adipisici elit, sed eiusmod</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </header>
 
-    <section class="tables container">
-        <h2>title section 2</h2>
-        <p>text section 2</p>
+    <section class="sec-2" id="section2">
+        <div class="info-tables container-980">
+            <h2>Lorem ipsum dolor sit amet,</h2>
+            <p>consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa 
+                qui officia deserunt mollit anim id est laborum. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui 
+                blandit praesent luptatum zzril delenit </p>
 
-        <h3>table title</h3>
-
-        <div class="info-tables">
-            <div class="col-4">
-                <ul class="single-col">
-                    <li class="single-table-inner-line col-header">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                    <li class="single-table-inner-line">lorem ipsum</li>
-                </ul>
-            </div>
-            <div class="col-4">
-                <ul class="single-col">
-                    <li class="single-table-inner-line col-header">lorem</li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                </ul>
-            </div>
-            <div class="col-4">
-                <ul class="single-col">
-                    <li class="single-table-inner-line col-header">lorem</li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                    <li class="single-table-inner-line"></li>
-                </ul>
+            <div class="info-tables container-980 the-table">
+                <h3>Lorem ipsum dolor</h3>
+                <div class="col-4 col-4-mb">
+                    <ul class="single-col headers">
+                        <li class="single-table-inner-line col-header">&nbsp;</li>
+                        <li class="single-table-inner-line">Lorem ipsum dolor</li>
+                        <li class="single-table-inner-line">Lorem ipsum dolor</li>
+                        <li class="single-table-inner-line">Lorem ipsum</li>
+                        <li class="single-table-inner-line">Lorem ipsum</li>
+                        <li class="single-table-inner-line">Lorem ipsum</li>
+                        <li class="single-table-inner-line">Lorem ipsum</li>
+                        <li class="single-table-inner-line">Lorem </li>
+                        <li class="single-table-inner-line">Lorem ipsum</li>
+                    </ul>
+                </div>
+                <div class="col-4 col-4-mb">
+                    <ul class="single-col info left">
+                        <li class="single-table-inner-line col-header">Lorem</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum dolor:</span>Lorem </li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem :</span><img src="/assets/images/V_icon.svg" height="20"/></li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Ipsum dolor:</span>Lorem ipsum</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem:</span><img src="/assets/images/X_icon.svg" height="20"/> </li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem dolor:</span>Lorem ipsum</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum dolor:</span>Lorem </li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum:</span><img src="/assets/images/V_icon.svg" height="20"/></li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum:</span><img src="/assets/images/V_icon.svg" height="20"/></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-4-mb">
+                    <ul class="single-col info right">
+                        <li class="single-table-inner-line col-header">Lorem</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem :</span>lorem ipsum</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum:</span><img src="/assets/images/X_icon.svg" height="20"/></li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem :</span>lorem ipsum</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum:</span>lorem ipsum</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem :</span><img src="/assets/images/V_icon.svg" height="20"/></li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum:</span>lorem ipsum</li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem ipsum:</span><img src="/assets/images/X_icon.svg" height="20"/></li>
+                        <li class="single-table-inner-line"><span class="only-mobile">Lorem :</span><img src="/assets/images/V_icon.svg" height="20"/></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-2 container">
-        
-        <div class="col-12">
-            <h2 class="sec-2-title">
+    <section class="sec-3" id="section3">
+        <div class="container-980">
+            <div class="col-12">
+                <h2 class="sec-2-title">
+                    Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod
+                </h2>
+            </div>
+            <div class="col-9">
+                <p>
+                    tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                </p>
+            </div>
+            <div class="col-3">
+                <button>UT ALIQUID EX</button> 
+            </div>
+        </div>
+    </section>
 
-            </h2>
-        </div>
-        <div class="col-8">
-            <p class="white-text">
-                text in white
-            </p>
-        </div>
-        <div class="col-4">
-            button
+    <section class="sec-4" id="section4">
+        <div class="container-980">
+            <div class="col-7">
+                <h2 class="purple-text">
+                    Lorem ipsum 
+                </h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                <p>adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco</p>
+                <button>laboris</button>
+            </div>
+            <div class="col-5">
+                <img src="assets/images/158.png" width="350">
+            </div>
         </div>
     </section>
 
-    <section class="sec-3 container">
-        <div class="col-8">
-            <h2 class="purple-text">
-                Lorem ipsum
-            </h2>
-            <h3>Lorem ipsum</h3>
-            <p>text section 3</p>
-            <button>laboris</button>
+    <footer class="sec-5" id="section5">
+        <div class="centering-items">
+            <div class="container-1460">
+                <div class="footer-col">
+                    <ul class="footer-list">
+                        <li class="header-footer-list">Lorem</li>
+                        <li>ipsum</li>
+                        <li>dolor</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul class="footer-list">
+                        <li class="header-footer-list">Lorem</li>
+                        <li>ipsum dolor sit amet</li>
+                        <li>consectetur adipisici elit</li>
+                        <li>sed eiusmod tempor incidunt ut</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul class="footer-list">
+                        <li class="header-footer-list">Lorem</li>
+                        <li>ipsum</li>
+                        <li>dolor</li>
+                        <li>sit</li>
+                        <li>amet</li>
+                        <li>consectetur</li>
+                        <li>adipisici</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul class="footer-list">
+                        <li class="header-footer-list">Lorem ipsum</li>
+                    </ul>
+
+                    <ul class="icon-list">
+                        <li class="social-icon"><img src="/assets/images/facebook.svg" width="32"/></li>
+                        <li class="social-icon"><img src="/assets/images/twitter.svg" width="32"/></li>
+                        <li class="social-icon"><img src="/assets/images/linkedin.svg" width="32"/></li>
+                        <li class="social-icon"><img src="/assets/images/youtube.svg" width="32"/></li>
+                        <li class="social-icon"><img src="/assets/images/mega.svg" width="32"/></li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li class="header-footer-list">Lorem ipsum</li>
+                        <li>consectetur adipisici elit</li>
+                        <li>sed eiusmod tempor incidunt ut</li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li class="header-footer-list">enim</li>
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <ul class="footer-list">
+                        <li class="image-item"><img src="/assets/images/footer-icon-5.jpg" width="158"/></li>
+                        <li class="image-item"><img src="/assets/images/footer-icon-4.jpg" width="158"/></li>
+                        <li class="image-item"><img src="/assets/images/footer-icon-3.jpg" width="158"/></li>
+                        <li class="image-item"><img src="/assets/images/footer-icon-2.jpg" width="158"/></li>
+                        <li class="image-item"><img src="/assets/images/footer-icon-1.jpg" width="158"/></li>
+                    </ul>
+                </div>
+            </div>
+            
         </div>
-        <div class="col-4">
-            <img src="assets/images/">
-        </div>
-    </section>
-    <footer class="full-screen">
-        <div class="footer-content">
-            <div class="col-2-4"></div>
-            <div class="col-2-4"></div>
-            <div class="col-2-4"></div>
-            <div class="col-2-4"></div>
-            <div class="col-2-4"></div>
+
+        <div class="centering-items">
+            <div class="container-1460">
+                sed eiusmod tempor incidunt ut sed eiusmod tempor incidunt ut
+            </div>
         </div>
     </footer>
+
+    <div class="go-up-button" id="go-up-button"><a href="#section0"><img src="/assets/images/iconmonstr-arrow-70.svg" width="50"></a></div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+<script src="/assets/js/master.js"></script>
+
 </html>

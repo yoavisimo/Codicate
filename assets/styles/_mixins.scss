@@ -1,0 +1,45 @@
+@mixin PurpleButton($tagname, $margintop, $width, $height, $fontsize) {
+    #{$tagname}{
+        margin-top:$margintop;
+        width: $width;
+        height: $height;
+        background: $PurpleColor;
+        color: $WhiteColor;
+        border:0px;
+        border-radius: 5px;
+        font-family: HelveticaNeue;
+        font-weight: bold;
+        font-size: $fontsize;
+        line-height: $height !important;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    #{$tagname}:hover{
+        background: $WhiteColor;
+        color: $PurpleColor;
+        border:1px solid #f2f2f2;
+    }
+}
+@mixin setSize($size) {
+    width: $size;    
+}
+
+@mixin Bigtitle($color) {
+    font-size: $bigTitleSizeDesktop;
+    color: $color;
+
+    @media screen and(max-width: 980px){
+        font-size: $bigTitleSizeMobile;
+        color: $color;
+    }
+}
+
+@mixin setFlexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
